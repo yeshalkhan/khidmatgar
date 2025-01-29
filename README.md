@@ -1,6 +1,6 @@
 # Khidmatgar
 
-**Khidmatgar** is an Android application developed in Kotlin that enables users to book service providers for various home chores such as cooking, cleaning, laundry, and more. The app offers functionalities like account creation, profile management, service booking, bookmarking service providers, searching, viewing booking history, and canceling bookings. The backend is built using .NET with an API leveraging Entity Framework for database interactions.
+**Khidmatgar** is an Android application developed in Kotlin that enables users to book service providers for various home chores such as cooking, cleaning, laundry, and more. The app offers functionalities like account creation, profile management, service booking, bookmarking service providers, searching, viewing booking history, and canceling bookings. The [(backend)](https://github.com/yeshalkhan/khidmatgar-backend) is built using .NET with an API leveraging Entity Framework for database interactions.
 
 ## Features
 
