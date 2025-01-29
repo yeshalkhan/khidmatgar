@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_booking_process_navigation"
+    app:startDestination="@id/BookingProcessFragment">
+
+    <fragment
+        android:id="@+id/BookingProcessFragment"
+        android:name="com.khidmatgar.fragments.BookingProcessFragment"
+        android:label="Booking Process"
+        tools:layout="@layout/fragment_booking_process">
+        <argument
+            android:name="serviceProvider"
+            app:argType="com.khidmatgar.models.ServiceProvider" />
+        <action
+            android:id="@+id/action_BookingProcessFragment_to_OrderReviewFragment"
+            app:destination="@id/OrderReviewFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/OrderReviewFragment"
+        android:name="com.khidmatgar.fragments.OrderReviewFragment"
+        android:label="Order Review"
+        tools:layout="@layout/fragment_order_review">
+        <argument
+            android:name="booking"
+            app:argType="com.khidmatgar.models.Booking" />
+        <argument
+            android:name="serviceProvider"
+            app:argType="com.khidmatgar.models.ServiceProvider" />
+<!--        <argument-->
+<!--            android:name="serviceProviderImage"-->
+<!--            app:argType="string" />-->
+<!--        <argument-->
+<!--            android:name="serviceProviderName"-->
+<!--            app:argType="string" />-->
+<!--        <argument-->
+<!--            android:name="serviceProviderServiceName"-->
+<!--            app:argType="string" />-->
+<!--        <argument-->
+<!--            android:name="serviceCharges"-->
+<!--            app:argType="string" />-->
+        <action
+            android:id="@+id/action_OrderReviewFragment_to_OrderConfirmationFragment"
+            app:destination="@id/OrderConfirmationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/OrderConfirmationFragment"
+        android:name="com.khidmatgar.fragments.OrderConfirmationFragment"
+        android:label="Order Confirmation"
+        tools:layout="@layout/fragment_order_confirmation" />
+</navigation>

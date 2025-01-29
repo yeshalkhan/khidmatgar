@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "12784677055",
+    "project_id": "myandroidauthapp-19c7d",
+    "storage_bucket": "myandroidauthapp-19c7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12784677055:android:ce9bed329cd4e3c848960a",
+        "android_client_info": {
+          "package_name": "com.khidmatgar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlcawDGVbkiWke7ZOxfP5i4PELugIy000"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

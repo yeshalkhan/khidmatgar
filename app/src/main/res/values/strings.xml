@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">Khidmatgar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Vanessa Luo</string>
+    <string name="nav_header_subtitle">Edit Profile</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_bookmarks">Bookmarks</string>
+    <string name="menu_bookings">Bookings</string>
+    <string name="menu_messages">Messages</string>
+    <string name="about_heading">About</string>
+    <string name="service_providers_heading">Service Providers</string>
+
+    <!-- Home page strings -->
+    <string name="logo_description">Logo</string>
+    <string name="profile_picture_description">Profile Picture</string>
+    <string name="search_hint">Search anything</string>
+    <string name="cover_photo_description">Cover photo of a girl using a sponge</string>
+    <string name="services_heading">What Services do\nyou need?</string>
+    <string name="get_started_button">Get Started</string>
+    <string name="category_heading">Category</string>
+    <string name="see_all">See All</string>
+    <string name="cleaning_category">Cleaning</string>
+    <string name="cooking_category">Cooking</string>
+    <string name="laundry_category">Laundry</string>
+    <string name="painting_category">Painting</string>
+    <string name="recommended_heading">Recommended</string>
+    <string name="service_provider_picture_description">Picture of service provider</string>
+    <string name="bookmark_description">Save for later</string>
+    <string name="rating_description">Rating star</string>
+
+    <!-- Login page strings -->
+    <string name="back_button_description">Back arrow</string>
+    <string name="back">Back</string>
+    <string name="login_and_signup_title">Let\'s get something started</string>
+    <string name="login_subtitle">Good to see you back</string>
+    <string name="remember_me">Remember me next time</string>
+    <string name="login_button">Login</string>
+    <string name="signup_prompt">Don\'t have an account?</string>
+
+    <!-- Signup page strings -->
+    <string name="signup_link">Sign up</string>
+    <string name="signup_subtitle">Create an account to continue</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="phone_hint">Phone</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="signup_button">Create account</string>
+    <string name="login_prompt">Already have an account?</string>
+
+    <!-- Welcome page strings -->
+    <string name="welcome_heading">Welcome</string>
+    <string name="welcome_subheading">Simplify your life with our trusted, non-demand services tailored just for you</string>
+
+    <!-- Cleaning page strings -->
+    <string name="cleaning_page_description">Our Home Cleaning service provides top-notch, reliable cleaning solutions tailored to keep your living spaces spotless and comfortable</string>
+
+    <!-- Cooking page strings -->
+    <string name="cooking_page_description">Our experienced chefs preparing delicious gourmet meals right in your own kitchen for an unforgettable dining experience</string>
+
+    <!-- Laundry page strings -->
+    <string name="laundry_page_description">Our Home Cleaning service provides top-notch, reliable cleaning solutions tailored to keep your living spaces spotless and comfortable</string>
+
+    <!-- Painting page strings -->
+    <string name="painting_page_description">Transform your space with our professional painting services, delivering stunning results and a fresh, vibrant look to your home."</string>
+
+    <!-- Messages page strings -->
+    <string name="messages_title">Messages</string>
+
+    <!-- Chat page strings -->
+    <string name="send_hint">Say something…</string>
+    <string name="send_button_description">Send</string>
+    <string name="down_button_description">Go down to last message</string>
+
+    <!-- Bottom navigation menu strings -->
+    <string name="home">Home</string>
+    <string name="bookings">Bookings</string>
+    <string name="saved">Saved</string>
+    <string name="message">Message</string>
+
+    <!-- Bookings page strings -->
+    <string name="bookings_title">My Bookings</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="active_status">Active</string>
+    <string name="done_status">Done</string>
+    <string name="cancelled_status">Cancelled</string>
+    <string name="close_button_description">Cancel booking</string>
+
+    <!-- Bookmarks page strings -->
+    <string name="bookmarks_title">Bookmarks</string>
+
+    <!-- Service Provider page strings -->
+    <string name="see_reviews">See Reviews</string>
+    <string name="location_description">Location</string>
+    <string name="phone_description">Phone number</string>
+    <string name="contact">Contact Me</string>
+    <string name="book">Book Now</string>
+    <string name="discount">Discount</string>
+    <string name="price">Price</string>
+
+    <!-- Booking page strings -->
+    <string name="no_of_hours">No. of Hours</string>
+    <string name="select_date">Select Date</string>
+    <string name="enter_time">Enter Time</string>
+    <string name="confirm">Confirm</string>
+    <string name="total_price">Total Price</string>
+    <string name="location">Enter Location</string>
+    <string name="default_location">Gulberg 3, Lahore</string>
+    <string name="default_time">12:00</string>
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

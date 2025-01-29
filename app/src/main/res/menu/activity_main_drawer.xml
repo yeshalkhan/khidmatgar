@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_bookings"
+            android:icon="@drawable/ic_calender"
+            android:title="@string/menu_bookings" />
+        <item
+            android:id="@+id/nav_saved"
+            android:enabled="true"
+            android:icon="@drawable/ic_bookmark"
+            android:title="@string/menu_bookmarks"/>
+        <item
+            android:id="@+id/nav_message"
+            android:enabled="true"
+            android:icon="@drawable/ic_message"
+            android:title="@string/menu_messages"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:enabled="true"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/action_logout"/>
+    </group>
+</menu>

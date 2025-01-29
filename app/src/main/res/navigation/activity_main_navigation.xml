@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.khidmatgar.fragments.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_homeFragment_to_categoryFragment"
+            app:destination="@id/nav_category" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_searchFragment"
+            app:destination="@id/nav_search"/>
+
+        <action
+            android:id="@+id/action_homeFragment_to_serviceProvidersFragment"
+            app:destination="@id/nav_service_providers"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_category"
+        android:name="com.khidmatgar.fragments.CategoryFragment"
+        android:label="Category"
+        tools:layout="@layout/fragment_category">
+
+        <argument
+            android:name="categoryCoverImage"
+            app:argType="integer" />
+        <argument
+            android:name="categoryHeading"
+            app:argType="string" />
+        <argument
+            android:name="categoryAbout"
+            app:argType="string" />
+        <argument
+            android:name="serviceProviderList"
+            app:argType="com.khidmatgar.models.ServiceProvider[]"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_bookings"
+        android:name="com.khidmatgar.fragments.BookingsFragment"
+        android:label="@string/menu_bookings"
+        tools:layout="@layout/fragment_bookings" />
+
+    <fragment
+        android:id="@+id/nav_saved"
+        android:name="com.khidmatgar.fragments.BookmarksFragment"
+        android:label="@string/menu_bookmarks"
+        tools:layout="@layout/fragment_bookmarks" />
+
+    <fragment
+        android:id="@+id/nav_message"
+        android:name="com.khidmatgar.fragments.MessagesFragment"
+        android:label="@string/menu_messages"
+        tools:layout="@layout/fragment_message" />
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.khidmatgar.fragments.SearchFragment"
+        android:label="Search Results"
+        tools:layout="@layout/fragment_search">
+
+        <argument
+            android:name="serviceProviders"
+            app:argType="com.khidmatgar.models.ServiceProvider[]"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_service_providers"
+        android:name="com.khidmatgar.fragments.ServiceProvidersFragment"
+        android:label="Service Providers"
+        tools:layout="@layout/fragment_service_providers">
+
+        <argument
+            android:name="serviceProviders"
+            app:argType="com.khidmatgar.models.ServiceProvider[]"/>
+    </fragment>
+</navigation>
