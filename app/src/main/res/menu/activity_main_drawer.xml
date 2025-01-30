@@ -18,11 +18,6 @@
             android:icon="@drawable/ic_bookmark"
             android:title="@string/menu_bookmarks"/>
         <item
-            android:id="@+id/nav_message"
-            android:enabled="true"
-            android:icon="@drawable/ic_message"
-            android:title="@string/menu_messages"/>
-        <item
             android:id="@+id/nav_logout"
             android:enabled="true"
             android:icon="@drawable/ic_logout"

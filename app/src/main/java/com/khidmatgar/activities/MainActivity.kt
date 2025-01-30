@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
         val profile: CircleImageView = findViewById(R.id.profilePictureLink)
 
         appBarConfiguration = AppBarConfiguration(
-            setOf(R.id.nav_home, R.id.nav_bookings, R.id.nav_saved, R.id.nav_message, R.id.nav_logout),
+            setOf(R.id.nav_home, R.id.nav_bookings, R.id.nav_saved, R.id.nav_logout),
             drawerLayout
         )
 

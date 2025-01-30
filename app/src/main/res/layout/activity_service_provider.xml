@@ -135,19 +135,6 @@
                     android:layout_weight="1"
                     android:textSize="16sp"
                     android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/seeReviewsLink"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:clickable="true"
-                    android:focusable="true"
-                    android:text="@string/see_reviews"
-                    android:textColor="@color/peach"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    tools:ignore="TouchTargetSizeCheck"/>
             </LinearLayout>
 
             <TextView

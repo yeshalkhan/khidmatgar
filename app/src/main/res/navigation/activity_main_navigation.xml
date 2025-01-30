@@ -57,12 +57,6 @@
         tools:layout="@layout/fragment_bookmarks" />
 
     <fragment
-        android:id="@+id/nav_message"
-        android:name="com.khidmatgar.fragments.MessagesFragment"
-        android:label="@string/menu_messages"
-        tools:layout="@layout/fragment_message" />
-
-    <fragment
         android:id="@+id/nav_search"
         android:name="com.khidmatgar.fragments.SearchFragment"
         android:label="Search Results"
